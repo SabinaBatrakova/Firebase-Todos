@@ -13,7 +13,7 @@ const model = createTodosModel(initialTodos);
 const view = createView('.js-output');
 const storage = createStorage(TODOS_STORAGE_KEY);
 
-storage.pull().then((todos) => {
+storage.pull().then((todos) => { 
    model.update(todos); 
    view.render(model.get());
 });

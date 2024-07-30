@@ -2,6 +2,9 @@
   "name": "todos",
   "source": "src/index.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
+  "main": "index.js",
+  "type":"module",
+
   "scripts": {
     "start": "parcel",
     "build": "parcel build --no-source-maps --dist-dir prod"
@@ -12,4 +15,5 @@
   "dependencies": {
     "firebase": "^10.12.4"
   }
+  
 }

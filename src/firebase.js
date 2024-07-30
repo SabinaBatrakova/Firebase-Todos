@@ -1,9 +1,8 @@
 
-const { initializeApp } = require('firebase/app')
-const { getFirestore, collection, addDoc, getDocs } = require("firebase/firestore")
 
+import { initializeApp } from "firebase/app";
 
-
+/*
 const firebaseConfig = { 
   apiKey: "AIzaSyBulIa9Nlm25EcoXmMPjwLiwga4iPY8nG4",
   authDomain: "todo-2a925.firebaseapp.com",
@@ -13,7 +12,7 @@ const firebaseConfig = {
   appId: "1:714340190694:web:e4423c9e128a9d44d22e27",
   measurementId: "G-WF2WGKWJR9"
 };
-
+*/
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
